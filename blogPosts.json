@@ -1,0 +1,18 @@
+[
+  {
+    "id": "uuid.v4()",
+    "title": "Ben's Blog Post",
+    "content": "I went to Islands of Adventure this weekend and went to Harry Potter World. It was really fun.",
+    "author": "Ben Malin",
+    "publishDate": "publishDate || Date.now()"
+  },
+
+  {
+    "id": "uuid.v4()",
+    "title": "Eric's Blog Post",
+    "content": "This weekend I studied really hard for my Thinkful.com course. I learned a lot more then my teammate Ben because he was busy in Orlando.",
+    "author": "Eric Pcholinski",
+    "publishDate": "Date.now()"
+  }
+]
+
