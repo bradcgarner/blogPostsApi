@@ -1,3 +1,5 @@
+'use strict';
+
 const uuid = require('uuid');
 
 // This module provides volatile storage, using a `BlogPost`
@@ -36,7 +38,7 @@ const BlogPosts = {
     // return posts sorted (descending) by
     // publish date
     return this.posts.sort(function(a, b) {
-      return b.publishDate - a.publishDate
+      return b.publishDate - a.publishDate;
     });
   },
   delete: function(id) {
